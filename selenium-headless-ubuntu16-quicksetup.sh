@@ -3,6 +3,7 @@
 # OS Setup
 sudo apt-get install -y aptitude ubuntu-minimal
 sudo aptitude markauto -y '~i!~nubuntu-minimal'
+sudo apt-get update --fix-missing
 sudo apt-get install -y linux-image-virtual openssh-server
 sudo apt-get update
 sudo apt-get upgrade -y
